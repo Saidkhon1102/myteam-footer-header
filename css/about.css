@@ -1,6 +1,6 @@
 @import url("./fonts.css");
-@import url("./components/navbar.css");
-@import url("./components/buttons.css");
+@import url("./navbar.css");
+@import url("./buttons.css");
 /* root */
 :root {
   --midnight-green: #014e56;
@@ -22,6 +22,7 @@
 html {
   width: 100%;
 }
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -37,7 +38,6 @@ img {
 main {
   flex-grow: 1;
 }
-/* Modifier */
 .nav--header_new {
   margin-left: 80px;
   margin-right: auto;
@@ -51,7 +51,7 @@ main {
 .nav--column_new {
   flex-direction: column;
 }
-/* Container */
+
 .container_new {
   width: 100%;
   max-width: 1150px;
@@ -59,7 +59,7 @@ main {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* Logo */
+
 .logo_new:hover {
   opacity: 0.6;
 }
@@ -67,7 +67,7 @@ main {
   width: 160px;
   height: 40px;
 }
-/* Header */
+
 .header__bg_new {
   background-color: var(--midnight-green);
 }
@@ -79,7 +79,7 @@ main {
   display: flex;
   align-items: center;
 }
-/* About */
+
 .about_new {
   padding-top: 60px;
   padding-bottom: 120px;
@@ -104,7 +104,7 @@ main {
   color: var(--white);
   line-height: 28px;
 }
-/* Induction */
+
 .induction_new {
   background-color: var(--deep-jungle-green);
   color: var(--white);
@@ -208,7 +208,7 @@ main {
 .icon_new:hover {
   font-size: 25px;
 }
-/* Company */
+
 .company_new {
   background-color: var(--sacramento-state-green);
   position: relative;
@@ -222,6 +222,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  cursor: pointer;
 }
 .company__title_new {
   padding-top: 155px;
@@ -235,7 +236,7 @@ main {
   gap: 80px;
   padding-bottom: 140px;
 }
-/* CTA */
+
 .cta_new {
   padding-top: 76px;
   padding-bottom: 76px;
@@ -259,7 +260,7 @@ main {
   bottom: -24%;
   z-index: 1;
 }
-/* Footer */
+/* Footer-section */
 .footer_new {
   background-color: var(--dark-green);
   color: var(--white);
@@ -283,7 +284,6 @@ main {
 .icons_new {
   margin-bottom: 28px;
 }
-/* open*/
 .open__img_new {
   cursor: pointer;
 }
@@ -307,15 +307,8 @@ main {
   padding-top: 5rem;
   transition: 0.5s;
 }
-.nav--column_new {
-}
-.open__item_new {
-}
+
 .open__item-link_new {
   color: var(--white);
   margin-bottom: 2rem;
-}
-.button_new {
-}
-.button--white_new {
 }

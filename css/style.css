@@ -1,7 +1,7 @@
 @import url("./fonts.css");
-@import url("./components/navbar.css");
-@import url("./components/buttons.css");
-/* root */
+@import url("./navbar.css");
+@import url("./buttons.css");
+
 :root {
   --midnight-green: #014e56;
   --light-coral: #f67e7e;
@@ -37,12 +37,12 @@ img {
 main {
   flex-grow: 1;
 }
-/* Modifier */
+
 .nav--header_new {
   margin-left: 80px;
   margin-right: auto;
 }
-/* Container */
+
 .container_new {
   width: 100%;
   max-width: 1150px;
@@ -50,7 +50,7 @@ main {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* Logo */
+
 .logo_new:hover {
   opacity: 0.6;
 }
@@ -58,7 +58,7 @@ main {
   width: 160px;
   height: 40px;
 }
-/* Header */
+
 .header_new {
   padding-top: 46px;
   padding-bottom: 60px;
@@ -68,7 +68,7 @@ main {
   display: flex;
   align-items: center;
 }
-/* CTA */
+
 .cta_new {
   padding-top: 76px;
   padding-bottom: 76px;
